@@ -1,0 +1,107 @@
+#ncolor {
+  text-shadow: 10px 10px 30px palegreen, 5px 5px 10px blue;
+  background: linear-gradient(to right, red, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header > h1 {
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+
+  text-shadow: 1px 1px 0 red, 2px 2px 0 orange, 3px 3px 0 yellow,
+    4px 4px 0 green, 5px 5px 0 blue, 6px 6px 0 darkblue, 7px 7px 0 purple;
+}
+header > div > h2 {
+  float: right;
+  display: block;
+}
+header > div {
+  overflow: hidden;
+}
+header > p {
+  overflow: hidden;
+}
+
+nav > ul > li > a:hover {
+  color: red;
+}
+nav > ul > li > a:active {
+  color: blueviolet;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav > ul > li > a:hover {
+  font-size: 2em;
+}
+.lname {
+  text-shadow: 10px 10px 30px magenta, 5px 5px 10px pink;
+}
+.main {
+  width: 90vw;
+}
+.animation {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.animation .lname {
+  display: inline-block;
+  color: #2aff29;
+  animation: animate 3s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateZ(-3deg);
+  }
+  50% {
+    transform: rotateZ(3deg);
+  }
+  100% {
+    transform: rotateZ(-3deg);
+  }
+}
+section > article > h2 > a:hover {
+  color: red;
+}
+section > article > h2 > a:active {
+  color: blueviolet;
+}
+section > article > h2 > a:hover {
+  transition: font-size 5s;
+  font-size: 500%;
+}
+section > article > h2 > a {
+  text-decoration: none;
+  text-shadow: 1px 0 0 red, 0 1px 0 red, -1px 0 0 red, 0 -1px 0 red,
+    -1px -1px 0 red, 1px 1px 0 red;
+}
+
+footer > h2 > a:hover {
+  color: red;
+}
+footer > h2 > a:active {
+  color: blueviolet;
+}
+footer > h2 > a {
+  text-decoration: none;
+  text-shadow: 1px 0 0 darkorange, 0 1px 0 darkorange, -1px 0 0 darkorange,
+    0 -1px 0 darkorange, -1px -1px 0 darkorange, 1px 1px 0 darkorange;
+}
+footer > h2 > a:hover {
+  transition: font-size 5s;
+  font-size: 300%;
+}
+body {
+  width: 1000px;
+  margin: 5px auto;
+  background-image: url(https://us.123rf.com/450wm/mihail39/mihail392005/mihail39200500025/146655686-%EC%88%98%ED%8F%89-%EC%B9%B8%EB%A7%89%EC%9D%B4-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%B4%EB%82%98-%EB%B2%BD%EB%A9%B4%EC%9D%B4-%EC%9E%88%EB%8A%94-%EB%B0%9D%EC%9D%80-%EA%B0%88%EC%83%89-%EB%82%98%EB%AC%B4-%EC%A7%88%EA%B0%90.jpg?ver=6);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

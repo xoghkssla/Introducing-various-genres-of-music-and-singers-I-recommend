@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>설문조사</title>
+    <link href="css\survey.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>설문조사</h1>
+    <h3>
+      여러분들이 생각하는 음악과 음악 장르 그리고 그 이유에 대해서 듣고
+      싶습니다. 많은 참여 부탁드립니다!!
+    </h3>
+    <hr />
+    <from>
+      <table>
+        <tr>
+          <td>
+            <label for="name">이름</label>
+            <input id="name" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td><br></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">이메일</label>
+            <input id="email" type="email">
+          </td>
+        </tr>
+        <tr>
+          <td><br></td>
+        </tr>
+        <tr>
+          <td>여러분이 하루에 노래듣는 시간</td>
+          <td>
+            <select>
+              <option>선택해주세요.</option>
+              <option>1시간 이하</option>
+              <option>2시간 이하</option>
+              <option>3시간 이하</option>
+              <option>그 이상</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><br></td>
+        </tr>
+        <tr>
+          <td>여러분이 좋아하는 장르</td>
+          <td>
+            <input id="genre 1" type="radio" name="genre" value="1" />
+            <label for="genre 1">발라드</label>
+            <input id="genre 2" type="radio" name="genre" value="2" />
+            <label for="genre 2">R&B</label>
+            <input id="genre 3" type="radio" name="genre" value="3" />
+            <label for="genre 3">록</label>
+            <input id="genre 4" type="radio" name="genre" value="4" />
+            <label for="genre 4">기타</label>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <form>
+        <table>
+          <tr>
+            <td>그 장르를 선택한 이유?</td>
+            <tr>
+              <td>
+                <form><textarea cols="60" rows="10">글을 남겨 주세요.</textarea></form><br>
+              </td>
+            </tr>
+          </tr>
+        </table>
+      </form>
+      <br>
+
+      <form>
+        <table>
+          <tr>
+            <td>선택한 장르에서 추천하고 싶은 가수</td>
+            <tr>
+              <td>
+                <form><textarea cols="60" rows="10">글을 남겨 주세요.</textarea></form><br>
+              </td>
+            </tr>
+          </tr>
+        </table>
+      </form>
+      <tr>
+        <td><br></td>
+        <td><input type="submit"></td>
+        </tr> 
+    </from>
+    
+  </body>
+</html>

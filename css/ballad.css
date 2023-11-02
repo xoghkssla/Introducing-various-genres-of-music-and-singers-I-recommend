@@ -1,0 +1,49 @@
+body {
+  width: 1000px;
+  margin: 5px auto;
+  background-color: whitesmoke;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lname {
+  color: red;
+  text-shadow: 10px 10px 30px darkmagenta, 10px 10px 15px blue;
+}
+.main {
+  width: 90vw;
+}
+.animation {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.animation .lname {
+  display: inline-block;
+  color: red;
+  animation: animate 3s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateZ(-3deg);
+  }
+  50% {
+    transform: rotateZ(3deg);
+  }
+  100% {
+    transform: rotateZ(-3deg);
+  }
+}
+h2 {
+  color: #d5e2d6;
+  font-family: "Lobster";
+  text-shadow: #4a744d 1px 1px, #4a744d 0px 0px, #4a744d 1px 1px,
+    #4a744d 2px 2px, #4a744d 3px 3px, #4a744d 4px 4px, #4a744d 5px 5px,
+    #4a744d 6px 6px, #4a744d 7px 7px, #4a744d 8px 8px, #4a744d 9px 9px,
+    #4a744d 10px 10px, #4a744d 11px 11px, #4a744d 12px 12px, #4a744d 13px 13px,
+    #4a744d 14px 14px, #4a744d 15px 15px, #4a744d 16px 16px, #4a744d 17px 17px,
+    #4a744d 18px 18px, #4a744d 19px 19px, #4a744d 20px 20px, #4a744d 21px 21px,
+    #4a744d 22px 22px, #4a744d 23px 23px, #4a744d 24px 24px, #4a744d 25px 25px,
+    #4a744d 26px 26px, #4a744d 27px 27px, #4a744d 28px 28px, #4a744d 29px 29px;
+}

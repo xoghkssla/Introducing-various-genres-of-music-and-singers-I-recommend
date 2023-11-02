@@ -1,0 +1,41 @@
+body {
+  width: 1000px;
+  margin: 5px auto;
+  background-image: url(https://img.freepik.com/premium-photo/saxophone-on-a-blue-background-musical-instruments-prin-background-wallpaper-3d-render_41204-562.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lname {
+  color: red;
+  text-shadow: 20px 20px 50px purple, 10px 10px 25px red;
+}
+.main {
+  width: 90vw;
+}
+.animation {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.animation .lname {
+  display: inline-block;
+  color: red;
+  animation: animate 3s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateZ(-3deg);
+  }
+  50% {
+    transform: rotateZ(3deg);
+  }
+  100% {
+    transform: rotateZ(-3deg);
+  }
+}
+h2 {
+  color: lightyellow;
+  font-family: Londrina Outline;
+  text-shadow: 0 0 10px gold, 0 0 20px firebrick, 0 0 40px pink, 0 0 80px red;
+}

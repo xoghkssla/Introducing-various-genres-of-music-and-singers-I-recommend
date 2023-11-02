@@ -1,0 +1,22 @@
+body {
+  width: 1000px;
+  margin: 5px auto;
+  background-image: url(https://us.123rf.com/450wm/zmiter/zmiter1706/zmiter170600012/79524574-%EB%B2%A1%ED%84%B0-%ED%81%B4%EB%A6%BD-%EB%B3%B4%EB%93%9C-%EC%95%84%EC%9D%B4%EC%BD%98%EC%9C%BC%EB%A1%9C-%EB%85%B9%EC%83%89-%EC%B2%B4%ED%81%AC-%ED%91%9C%EC%8B%9C.jpg?ver=6);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Fugaz One";
+  text-align: center;
+  text-shadow: #44090d 1px 1px, #44090d -0px 0px, #44090d -1px 1px,
+    #44090d -2px 2px, #44090d -3px 3px, #44090d -4px 4px, #44090d -5px 5px,
+    #44090d -6px 6px, #44090d -7px 7px, #44090d -8px 8px, #44090d -9px 9px,
+    #44090d -10px 10px, #44090d -11px 11px, #44090d -12px 12px,
+    #44090d -13px 13px, #44090d -14px 14px, #44090d -15px 15px,
+    #44090d -16px 16px, #44090d -17px 17px, #44090d -18px 18px,
+    #44090d -19px 19px, #44090d -20px 20px, #44090d -21px 21px,
+    #44090d -22px 22px, #44090d -23px 23px, #44090d -24px 24px,
+    #44090d -25px 25px, #44090d -26px 26px, #44090d -27px 27px,
+    #44090d -28px 28px, #44090d -29px 29px;
+}
